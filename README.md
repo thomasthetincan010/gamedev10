@@ -17,3 +17,9 @@ Processing Version 4.0.1 (though any version works).
 Main Sketch in SpaceGame.pde
 Required Libraries: Simply processing.sound
 To open and run project, click the triangle, play button. 
+
+## Powerups:
+
+
+
+
