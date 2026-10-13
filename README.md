@@ -5,6 +5,7 @@
 ### SpaceGame
 
 ![SpaceGame](https://github.com/thomasthetincan010/gamedev10/blob/main/images/spacegame.png?raw=true)
+![SpaceGame](https://github.com/thomasthetincan010/gamedev10/blob/main/images/spacegameLose.png?raw=true)
 
 [Link for Source Code](https://github.com/thomasthetincan010/gamedev10/tree/main/src)
 
