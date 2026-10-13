@@ -26,8 +26,8 @@ void setup () {
   rockCount = 0;
   rocksOffScreen = 0;
   play = false;
- // laser1 = new SoundFile(this, "laserSound.mp3");
- // pointA = new SoundFile(this, "pointsAwarded.mp3");
+  laser1 = new SoundFile(this, "laserSound.mp3");
+  pointA = new SoundFile(this, "pointsAwarded.mp3");
 }
 
 void draw () {
@@ -43,7 +43,7 @@ void draw () {
   int previousLevel = levelMgr.level;
   levelMgr.update(score);
   if (levelMgr.level > previousLevel) {
-  //  pointA.play();
+    //  pointA.play();
   }
 
   // Add Rocks
@@ -63,7 +63,7 @@ void draw () {
     bossh1.display();
     bossh1.move();
     if (bossh1.x > width + 200) {
-      bossh1.x = -200; 
+      bossh1.x = -200;
     }
   }
 
@@ -103,7 +103,7 @@ void draw () {
       rocks.remove(i);
       rocksOffScreen++;
       c37.health = c37.health - 3;
-      // intentional, I also need a penalty for missing. 
+      // intentional, I also need a penalty for missing.
     }
   }
 
@@ -120,10 +120,10 @@ void draw () {
       laserDestroyed = true;
       bossh1.health -= (int(random(1, 40))); // Pure randomness
       if (bossh1.health < 1) {
-        score += 50; 
+        score += 50;
         pointA.play();
-        bossh1.x = -400; 
-        bossh1.health = 5000; 
+        bossh1.x = -400;
+        bossh1.health = 5000;
       }
       continue;
     }
@@ -138,12 +138,12 @@ void draw () {
         if (r.health < 1) {
           rocks.remove(j);
           score += 10;
-        //  pointA.play();
+          pointA.play();
         }
         break;
       }
     }
-    
+
     // Check if laser went off screen
     if (!laserDestroyed && l.isOffScreen() == true) {
       lasers.remove(i);
@@ -197,7 +197,7 @@ void infoPanel() {
   rectMode(CENTER);
   rect(width/2, 20, width/1.01, 40);
   fill(255);
-  textSize(12); // Locks font size so it doesn't get messed up by power-ups
+  textSize(12);
   textAlign(LEFT, CENTER);
   text("Score: " + int(score), 20, 20);
   text("Level: " + levelMgr.level, 110, 20);
