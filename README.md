@@ -14,7 +14,7 @@
 This is an object oriented game. 
 Use lasers to shoot down rocks.
 Lose all health or 10 rocks out-of-bounds, you lose.
-Survive all 3 levels. 
+Survive all 3 levels to win. 
 
 ## How to Run
 Built with [Processing.](https://processing.org/download) 
