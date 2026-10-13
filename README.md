@@ -43,12 +43,6 @@ Don't worry, the boss will return to the original spawn-point if it goes off-scr
 100 points to get to level 2, 351 points to get to level 3.  
 The boss gives 50 points upon defeating it. 
 
-## How I made this:
-I actually took SOME inspiration from an old project I made in ECS (exploration computer science).
-It was made in scratch.
-Most concepts and mechanics work the same.
-It's just the same, same old boring math. 
-It is easy to go from blocks to processing language.
 
 ## Comments:
 You get 0.2 points for hitting the rock with the ship. 
@@ -59,6 +53,12 @@ I am sorry for the rocks being dark, it was a design choice.
 All drawings were all in piskel, I was clumsy when drawing. 
 
 
+## How I made this:
+I actually took SOME inspiration from an old project I made in ECS (exploration computer science).
+It was made in scratch.
+Most concepts and mechanics work the same.
+It's just the same, same old boring math. 
+It is easy to go from blocks to processing language.
 
 
 
