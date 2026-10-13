@@ -21,6 +21,10 @@ Main Sketch in SpaceGame.pde
 Required Libraries: Simply processing.sound
 To open and run project, click the triangle, play button. 
 
+## Controls:
+
+Simply drag your mouse. 
+
 ## Powerups:
 There are THREE power-ups
 1. +5 Health
@@ -30,8 +34,9 @@ They will spawn every 5 to 15 seconds.
 
 ## Level Progression:
 Rocks will fall faster.
-Boss spawns at level 2.
+Boss spawns at level 2 and WILL respawn once you kill it again (only this level). 
 Don't worry, the boss will return to the original spawn-point if it goes off-screen.
+100 points to get to level 2, 351 points to get to level 3.  
 
 ## How I made this:
 I actually took SOME inspiration from an old project I made in ECS (exploration computer science).
