@@ -32,7 +32,6 @@ void setup () {
 
 void draw () {
   noCursor();
-  // Check for startscreen
   if (play == false) {
     startScreen();
     return;
@@ -43,7 +42,7 @@ void draw () {
   int previousLevel = levelMgr.level;
   levelMgr.update(score);
   if (levelMgr.level > previousLevel) {
-    //  pointA.play();
+    pointA.play();
   }
 
   // Add Rocks
