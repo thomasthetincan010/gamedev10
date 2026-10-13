@@ -17,8 +17,8 @@ Lose all health or 10 rocks out-of-bounds, you lose.
 Survive all 3 levels. 
 
 ## How to Run
-Built with Processing. 
-Processing Version 4.0.1 (though any version works).
+Built with [Processing.](https://processing.org/download) 
+Mainly in Processing Version 4.0.1.
 Main Sketch in SpaceGame.pde
 Required Libraries: Simply processing.sound
 To open and run project, click the triangle, play button. 
