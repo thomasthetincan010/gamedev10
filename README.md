@@ -11,6 +11,8 @@
 ## Game Overview
 This is an object oriented game. 
 Use lasers to shoot down rocks.
+Lose all health or 10 rocks out-of-bounds, you lose.
+Survive all 3 levels. 
 
 ## How to Run
 Built with Processing. 
@@ -27,9 +29,24 @@ There are THREE power-ups
 They will spawn every 5 to 15 seconds.
 
 ## Level Progression:
-Rocks will fall faster and slightly more often.
-Bosses will get significantly harder. 
-Power-ups will spawn slightly more often (but less than rocks).
+Rocks will fall faster.
+Boss spawns at level 2.
+
+## How I made this:
+I actually took inspiration from an old project I made in ECS (exploration computer science).
+It was made in scratch.
+Most concepts and mechanics work the same.
+It's just the same, same old boring math. 
+It is easy to go from blocks to processing language.
+
+## Comments:
+You get 0.2 points for hitting the rock with the ship. 
+Yes, you lose 3 points for letting it go out-of-bounds. 
+Instead of set numbers, most items are random since it would be too easy that way.
+I am sorry for the rocks being dark, it was a design choice. 
+All drawings were all in piskel, I was clumsy when drawing. 
+
+
 
 
 
