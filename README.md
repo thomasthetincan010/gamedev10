@@ -31,9 +31,10 @@ They will spawn every 5 to 15 seconds.
 ## Level Progression:
 Rocks will fall faster.
 Boss spawns at level 2.
+Don't worry, the boss will return to the original spawn-point if it goes off-screen.
 
 ## How I made this:
-I actually took inspiration from an old project I made in ECS (exploration computer science).
+I actually took SOME inspiration from an old project I made in ECS (exploration computer science).
 It was made in scratch.
 Most concepts and mechanics work the same.
 It's just the same, same old boring math. 
