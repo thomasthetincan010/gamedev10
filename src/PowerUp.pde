@@ -14,7 +14,7 @@ class PowerUp {
     if (pValue > 2.0) {
       type = 'h'; // Health
     } else if (pValue > 1.0) {
-      type = 't'; // Turret (the amoun)
+      type = 't'; // Turret (the amount)
     } else {
       type = 's'; // Speed (laser speed)
     }
