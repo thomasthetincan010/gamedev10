@@ -52,6 +52,7 @@ It is easy to go from blocks to processing language.
 
 ## Comments:
 You get 0.2 points for hitting the rock with the ship. 
+Rocks spawn every 1.5 to 4.5 seconds.
 Yes, you lose 3 points for letting it go out-of-bounds. 
 Instead of set numbers, most items are random since it would be too easy that way.
 I am sorry for the rocks being dark, it was a design choice. 
