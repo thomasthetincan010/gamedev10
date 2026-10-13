@@ -20,7 +20,7 @@ Survive all 3 levels.
 Built with [Processing.](https://processing.org/download) 
 Mainly in Processing Version 4.0.1.
 Main Sketch in SpaceGame.pde
-Required Libraries: Simply processing.sound
+Required Libraries: Simply processing.sound.
 To open and run project, click the triangle, play button. 
 
 ## Controls:
@@ -28,17 +28,20 @@ To open and run project, click the triangle, play button.
 Simply drag your mouse. 
 
 ## Powerups:
-There are THREE power-ups
-1. +5 Health
-2. +1 Laser Speed
-3. +1 Laser
+There are THREE power-ups. The following are:
+1. +5 Health (h)
+2. +1 Laser Speed (s)
+3. +1 Laser (l)
 They will spawn every 5 to 15 seconds.
+You can see the type.
+You can't shoot the power-up down, you must actually touch the power-up with your rocket. 
 
 ## Level Progression:
 Rocks will fall faster.
 Boss spawns at level 2 and WILL respawn once you kill it again (only this level). 
 Don't worry, the boss will return to the original spawn-point if it goes off-screen.
 100 points to get to level 2, 351 points to get to level 3.  
+The boss gives 50 points upon defeating it. 
 
 ## How I made this:
 I actually took SOME inspiration from an old project I made in ECS (exploration computer science).
