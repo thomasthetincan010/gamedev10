@@ -21,7 +21,7 @@ class LevelManager {
 
     if (currentScore >= nextLevelScore && level < 3) {
       level++;
-      nextLevelScore += 500; //
+      nextLevelScore += 351; //
       showLevelUpMessage = true;
       messageTimer = 500;
     }
